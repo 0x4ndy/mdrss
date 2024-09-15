@@ -9,7 +9,7 @@ repository = "https://github.com/0x4ndy/mdrss"
 homepage = "https://github.com/0x4ndy/mdrss"
 documentation = "https://docs.rs/mdrss"
 keywords = ["rss", "markdown", "feed"]
-categories = ["content-management", "text-processing"]
+categories = ["text-processing"]
 
 [dependencies]
 rss = "2.0"
