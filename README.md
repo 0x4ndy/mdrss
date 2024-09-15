@@ -12,7 +12,9 @@ pub fn generate_rss(
 ```
 ### Arguments
 `markdown_dir` - A path to the directory containing the markdown files.
+
 `rss_output_path` - The destination path for the generated RSS feed (rss.xml).
+
 `rss_conf` - RSS configuration structure
 
 ## Example
