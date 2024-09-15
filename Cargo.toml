@@ -1,0 +1,23 @@
+[package]
+name = "mdrss"
+version = "0.1.0"
+edition = "2021"
+description = "A Rust library for generating RSS feeds from markdown files."
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/0x4ndy/mdrss"
+homepage = "https://github.com/0x4ndy/mdrss"
+documentation = "https://docs.rs/mdrss"
+keywords = ["rss", "markdown", "feed"]
+categories = ["content-management", "text-processing"]
+
+[dependencies]
+rss = "2.0"
+walkdir = "2.3"
+serde = { version = "1.0", features = ["derive"] }
+chrono = { version = "0.4", features = ["serde"] }
+tempfile = "3.3"
+serde_yaml = "0.9"
+
+[dev-dependencies]
+tempfile = "3.3"
